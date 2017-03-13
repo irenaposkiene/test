@@ -11,7 +11,18 @@ public class HelloWorld {
 		System.out.println("HELLO UGLY WORLD!");
 System.out.printLn("The World is not ungly");
 
-Date date = new  Date();
-System.out.println (date.toString());
+Scanner sc = new Scanner (System.in);
+
+System.out.println ("enter your name"); 
+
+String text = sc.next(); 
+
+System.out.println ("Hello+ "+ text+ "!"); 
+
+
+
+}
+
+>>>>>>> testing
 	}
 }
